@@ -1,5 +1,18 @@
 # line Cookbook CHANGELOG
 
+## v2.1.0 (2018-06-01)
+
+- New function. The filter_lines resource, with library filter methods.
+
+  *  after          - Insert lines before a match
+  *  before         - Insert lines after a match
+  *  between        - Insert lines between matches
+  *  delete_between - Delete lines between matches
+  *  comment        - Turn lines into comments
+  *  replace        - Replace a matched line with multiple lines
+  *  stanza         - Set keys in a stanza
+  *  substitute     - Find line that matches a pattern, replace text that matches another pattern
+
 ## v2.0.2 (2018-06-29)
 - Explicitly disallow embedded EOL characters in replacement and append lines
 
